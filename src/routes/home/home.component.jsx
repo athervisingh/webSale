@@ -10,9 +10,7 @@ const Home = () => (
 				<li key={university.name}>{university.name}</li>
 			))}
 		</ul>
-		<Button href='https://wa.me/917983853822'>
-			{consultButtonText}
-		</Button>
+		<Button href='https://wa.me/917983853822'>{consultButtonText}</Button>
 	</Section>
 );
 
