@@ -1,7 +1,9 @@
 import styled from 'styled-components';
 
 export const NavigationBar = styled.nav`
+  position: fixed;
   display: flex;
+  width: 100%;
   justify-content: space-between;
   padding: 10px 20px;
   background-color: #0056b3;

@@ -1,5 +1,6 @@
 import styled from "styled-components";
 export const Form = styled.form`
+  color: #fff9fc;
   background-color: #0056b3;
   padding: 20px;
   border-radius: 10px;
@@ -25,7 +26,13 @@ export const Form = styled.form`
     border: none;
     border-radius: 5px;
     font-size: 14px;
-    accent-color: #0056b3;
+    color: #fff9fc;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #0056b3;
+    &::placeholder {
+      color: #cfc9cc;
+    }
   }
 
   button {
