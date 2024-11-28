@@ -66,7 +66,7 @@ const Hero = () => {
 
 					<a
 						type='button'
-						className='flex mt-7 ml-8 gap-5 items-center text-gray-900 bg-gradient-to-r from-teal-200 to-lime-200 hover:bg-gradient-to-l hover:from-teal-200 hover:to-lime-200 focus:ring-4 focus:outline-none focus:ring-lime-200 dark:focus:ring-teal-700 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2'
+						className='flex mt-7 ml-8 gap-5 items-center justify-center rounded-xl text-gray-900 bg-gradient-to-r from-teal-200 to-lime-200 hover:bg-gradient-to-l hover:from-teal-200 hover:to-lime-200 focus:ring-4 focus:outline-none focus:ring-lime-200 dark:focus:ring-teal-700 font-medium text-sm px-5 py-2.5 text-center me-2 mb-2'
 						href='https://wa.me/919999999999'
 					>
 						<FaWhatsapp size={20} />

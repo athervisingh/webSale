@@ -7,6 +7,8 @@ import Contact from "@/components/contact/contact.component";
 import EnquireBar from "@/components/enquireBar/enquireBar";
 import University from "@/components/university/university.component";
 import { Review } from "@/components/review/review.component";
+import ToggleContent from "@/components/toggleContent/toggleContent.component";
+import Footer from "@/components/footer/footer.component";
 export default function Home() {
   return (
     <div className="">
@@ -18,7 +20,9 @@ export default function Home() {
       <CountriesTile />
       <Contact />
       <University />
-      <Review/>
+      <Review />
+      <ToggleContent />
+      <Footer/>
     </div>
   );
 }

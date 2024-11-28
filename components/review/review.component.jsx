@@ -1,44 +1,44 @@
 import { cn } from "@/lib/utils";
 import Marquee from "@/components/ui/marquee";
-
 const reviews = [
   {
-    name: "Jack",
-    username: "@jack",
-    body: "I've never seen anything like this before. It's amazing. I love it.",
-    img: "https://avatar.vercel.sh/jack",
+    name: "Rahul Sharma",
+    username: "@rahul",
+    body: "This platform is extremely helpful for finding the best MBBS colleges. The detailed insights saved me a lot of research time!",
+    img: "https://avatar.vercel.sh/rahul",
   },
   {
-    name: "Jill",
-    username: "@jill",
-    body: "I don't know what to say. I'm speechless. This is amazing.",
-    img: "https://avatar.vercel.sh/jill",
+    name: "Priya Mehta",
+    username: "@priya",
+    body: "Thanks to this site, I was able to compare colleges effectively and make an informed decision about my future.",
+    img: "https://avatar.vercel.sh/priya",
   },
   {
-    name: "John",
-    username: "@john",
-    body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "https://avatar.vercel.sh/john",
+    name: "Amit Verma",
+    username: "@amit",
+    body: "I found the perfect college through this site. The filters and reviews are very well-organized and useful.",
+    img: "https://avatar.vercel.sh/amit",
   },
   {
-    name: "Jane",
-    username: "@jane",
-    body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "https://avatar.vercel.sh/jane",
+    name: "Anjali Gupta",
+    username: "@anjali",
+    body: "The college recommendations here are spot on. I really liked how it includes key information like rankings and admission details.",
+    img: "https://avatar.vercel.sh/anjali",
   },
   {
-    name: "Jenny",
-    username: "@jenny",
-    body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "https://avatar.vercel.sh/jenny",
+    name: "Rohit Singh",
+    username: "@rohit",
+    body: "This site made the overwhelming task of finding the right MBBS college much easier. Highly recommended!",
+    img: "https://avatar.vercel.sh/rohit",
   },
   {
-    name: "James",
-    username: "@james",
-    body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "https://avatar.vercel.sh/james",
+    name: "Neha Patel",
+    username: "@neha",
+    body: "I appreciated the genuine reviews and accurate information provided about MBBS colleges. It was a lifesaver during my admission process.",
+    img: "https://avatar.vercel.sh/neha",
   },
 ];
+
 
 const ReviewCard = ({ img, name, username, body }) => (
   <figure
@@ -72,8 +72,8 @@ export function Review() {
   const secondRow = reviews.slice(Math.ceil(reviews.length / 2));
 
   return (
-      <div className="relative flex h-[400px] w-full flex-col items-center justify-center overflow-hidden rounded-lg border bg-background md:shadow-xl">
-          <h1 className="text-5xl mb-10">Student's Reviews</h1>
+    <div className="relative flex h-[600px] flex-col items-center justify-center overflow-hidden border bg-background md:shadow-xl">
+      <h1 className="text-5xl mb-10">Student&apos;s Reviews</h1>
       <Marquee pauseOnHover className="[--duration:20s]">
         {firstRow.map((review) => (
           <ReviewCard key={review.username} {...review} />

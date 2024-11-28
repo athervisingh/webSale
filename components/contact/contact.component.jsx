@@ -56,8 +56,9 @@ const Contact = () => {
             <select
               id="destination"
               className="w-full p-3 mb-4 border border-gray-300 rounded-xl bg-blue-700 text-white"
+              defaultValue=""
             >
-              <option value="" disabled selected>
+              <option value="" disabled>
                 Select Destination
               </option>
               {countries.map((country) => (
@@ -81,9 +82,8 @@ const Contact = () => {
                 type="button"
                 className="flex mt-2 gap-3 items-center rounded-xl text-gray-900 bg-gradient-to-r from-teal-200 to-lime-200 hover:bg-gradient-to-l hover:from-teal-200 hover:to-lime-200 focus:ring-4 focus:outline-none focus:ring-lime-200 dark:focus:ring-teal-700 font-medium text-sm px-5 py-2.5 text-center me-2 mb-2"
               >
-                              <FaWhatsapp size={20} />
-                              Whatsapp
-                              
+                <FaWhatsapp size={20} />
+                Whatsapp
               </button>
               <button
                 type="submit"
