@@ -3,7 +3,7 @@ import HeroVideoDialog from "@/components/ui/hero-video-dialog";
 
 const University = () => {
   return (
-    <div className="w-[100vw] h-[90vh] pt-20">
+    <div className="w-[100vw] h-[70vh] pt-20">
       <div>
         <h1 className="text-5xl text-center ">
           Our <b>Top Ranked</b> Partners
